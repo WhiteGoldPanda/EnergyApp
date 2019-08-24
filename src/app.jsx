@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react'
+import axios from 'axios';
 
-const App = () => <h1>UK Energy Mix</h1>;
 
-export {
-    App
+
+
+
+
+
+export default class App extends Component {
+
+
+  
+
+  render() {
+
+    return (
+      <React.Fragment>
+        
+<p>Hi</p>        
+      </React.Fragment>
+    )
+  }
 }
+
